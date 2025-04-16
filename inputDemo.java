@@ -1,4 +1,4 @@
-package JavaProject;
+package JavaPractice;
 
 import java.util.Scanner;
 

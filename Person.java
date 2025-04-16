@@ -1,4 +1,4 @@
-package JavaProject;
+package JavaPractice;
 
 public class Person {
     // 封裝

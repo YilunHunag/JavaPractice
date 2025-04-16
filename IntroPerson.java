@@ -1,4 +1,4 @@
-package JavaProject;
+package JavaPractice;
 
 public class IntroPerson {
     // 主要方法

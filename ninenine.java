@@ -1,4 +1,4 @@
-package JavaProject;
+package JavaPractice;
 
 public class ninenine {
     public static void main(String[] args){
