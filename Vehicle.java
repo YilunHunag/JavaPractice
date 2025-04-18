@@ -1,12 +1,23 @@
 package JavaPractice;
 
-abstract class Vehicle {
+import JavaPractice.Capabilities.*;
+
+abstract class Vehicle implements Moveable, Fuelable{
+    int wheels;
+    public abstract String getVehicleType();
+    Vehicle(int wheels){
+        this.wheels = wheels;
+    }
+    void showWheels() {
+        System.out.println(getVehicleType() + wheels + " 個輪子");
+    }
+
     // 抽象方法
-    abstract void move();
+    public abstract void move();
     abstract void stop();
 
     // 一般方法: 共通功能
-    void fuel(String fuelType){
+    public void fuel(String fuelType){
         System.out.println("加" + fuelType + "中...");
     }
 }

@@ -11,6 +11,7 @@ public class VehicleTest {
         };
 
         for (Vehicle v : vehicles){
+            v.showWheels();
             v.move();
             // 不同燃料
             if (v instanceof Car) v.fuel(" 汽油 ");
