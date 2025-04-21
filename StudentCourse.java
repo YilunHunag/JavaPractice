@@ -8,7 +8,7 @@ public class StudentCourse {
         
         // LinkedHashMap 根據輸入順序
         Map <String, Set<String>> CrsMap = new LinkedHashMap<>();
-        CrsMap.put("Amy", new HashSet<>(Arrays.asList("數學", "英文", "物理")));
+        CrsMap.put("Amy", new HashSet<>(Arrays.asList("數學", "英文", "物理","歷史")));
         CrsMap.put("Bob", new HashSet<>(Arrays.asList("數學", "化學")));
         CrsMap.put("Candy", new HashSet<>(Arrays.asList("數學", "英文", "物理", "化學", "地理")));
 
