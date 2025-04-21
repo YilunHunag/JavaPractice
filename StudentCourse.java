@@ -6,7 +6,7 @@ public class StudentCourse {
 
     public static void main(String[] args) {
         
-        // LinkedHashMap
+        // LinkedHashMap 根據輸入順序
         Map <String, Set<String>> CrsMap = new LinkedHashMap<>();
         CrsMap.put("Amy", new HashSet<>(Arrays.asList("數學", "英文", "物理")));
         CrsMap.put("Bob", new HashSet<>(Arrays.asList("數學", "化學")));
@@ -17,7 +17,7 @@ public class StudentCourse {
             System.out.println(entry.getKey() + ":" + entry.getValue());
         }
         
-        // TreeMap
+        // TreeMap 根據字母排序
         Map<String, Set<String>> studentCourses = new TreeMap<>();
         studentCourses.put("Alice", new HashSet<>(Arrays.asList("Math", "English")));
         studentCourses.put("Charlie", new HashSet<>(Arrays.asList("History")));
